@@ -91,3 +91,14 @@ ruby.github_actions()
 ```
 
 could provide a configurable set of workflows that lint and test Ruby projects.
+
+### Declarative operating systems
+
+Declarative operating systems such as NixOS or GNU Guix use a programming language to write the operating system configuration.
+
+This requires users of those operating systems to learn a very specific language.
+
+Declarative operating systems could use tojson instead of their own language, and build the system from JSON input.
+Then, users could write their configuration in their language of choice, instead of having to learn a specialized language.
+
+By implementing tojson parsers for their languages, users could continue using their existing configurations.
